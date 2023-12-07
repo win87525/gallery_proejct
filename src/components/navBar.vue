@@ -6,12 +6,14 @@
 
         <ul class="dropdowns">
             <li class="dropdowns_li">
-                <span>知名畫家</span>
-                <ul>
-                    <li><a href="">達文西</a></li>
-                    <li>收到的讚</li>
-                    <li>我的消息</li>
-                </ul>
+                    <span>知名畫家</span>
+                    <ul>
+                        <li>
+                            <RouterLink to="/painterPage">達文西</RouterLink>
+                        </li>
+                        <li>收到的讚</li>
+                        <li>我的消息</li>
+                    </ul>
             </li>
             <li class="dropdowns_li">
                 <span>藝術作品</span>
@@ -54,7 +56,7 @@ header {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    
+
 
     &>a:nth-child(1) {
         display: flex;
@@ -128,9 +130,10 @@ header {
     transition: 0.5s;
 }
 
-.dropdowns_li:hover{
+.dropdowns_li:hover {
     background-color: var(--very--low--gray--color);
 }
+
 .dropdowns_li:hover::after {
     opacity: 1;
 }
