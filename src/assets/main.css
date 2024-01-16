@@ -10,7 +10,30 @@
   font-family: 'Noto Sans TC', sans-serif;
 }
 
-ul,ol {
+html {
+  font-size: 62.5%;
+}
+
+/*******************/
+/* 斷點 1200px(移動端) */
+/*******************/
+@media(max-width:75em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/*******************/
+/* 斷點 944px(平板電腦) */
+/*******************/
+@media (max-width:59em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+ul,
+ol {
   list-style: none;
   padding-left: 0;
 }
@@ -20,7 +43,8 @@ a {
   color: #000;
   transition: 0.3s;
 }
-a:hover{
+
+a:hover {
   color: var(--dark--gray--color);
 }
 

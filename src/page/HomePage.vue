@@ -1,11 +1,13 @@
 <template>
-    <Carousel></Carousel>
+    <carouselBox></carouselBox>
+    <PainterBox></PainterBox>
     <showStyle></showStyle>
 </template>
 
 <script setup>
-import Carousel from '../components/Carousel.vue';
+import carouselBox from '../components/carouselBox.vue';
 import showStyle from '../components/showStyle.vue';
+import PainterBox from '../components/PainterBox.vue';
 </script>
 
 <style scoped></style>

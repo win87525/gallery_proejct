@@ -1,8 +1,9 @@
+
 <template>
     <header>
-        <a href="">
+        <RouterLink to="/">
             <img src="../img/logo.png" alt="">
-        </a>
+        </RouterLink>
 
         <ul class="dropdowns">
             <li class="dropdowns_li">
@@ -57,17 +58,16 @@ header {
     justify-content: space-evenly;
     align-items: center;
 
-
     &>a:nth-child(1) {
         display: flex;
 
         img {
-            width: 200px;
+            width: 20rem;
         }
     }
 
     & div:nth-child(3) {
-        width: 200px;
+        width: 20rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -78,11 +78,11 @@ header {
         }
 
         a:nth-child(1)>i {
-            font-size: 20px;
+            font-size: 2rem;
         }
 
         a:nth-child(2)>i {
-            font-size: 26px;
+            font-size: 2.6rem;
         }
     }
 }
@@ -109,10 +109,10 @@ header {
 
 .dropdowns_li {
     background-color: transparent;
-    width: 130px;
-    height: 65px;
+    width: 13rem;
+    height: 6.5rem;
     text-align: center;
-    line-height: 65px;
+    line-height: 6.5rem;
     transition: .5s;
     cursor: pointer;
     position: relative;
@@ -124,8 +124,8 @@ header {
     bottom: 0;
     left: 0;
     background-color: var(--orange--color);
-    width: 130px;
-    height: 3px;
+    width: 13rem;
+    height: .3rem;
     opacity: 0;
     transition: 0.5s;
 }
@@ -157,7 +157,7 @@ header {
 }
 
 .dropdowns_li:hover li {
-    height: 65px;
+    height: 6.5rem;
     opacity: 1;
     transform: translateY(0);
 }

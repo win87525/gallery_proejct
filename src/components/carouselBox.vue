@@ -38,3 +38,10 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'; // 包括了 Popper.js
 
 </script>
+
+<style scoped>
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    width: 4rem;
+    height: 4rem;
+}
+</style>

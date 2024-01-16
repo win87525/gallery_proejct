@@ -60,7 +60,7 @@
     padding: 2rem 0;
 
     .inSideBox {
-        width: 80%;
+        width: 75%;
 
         div {
             display: flex;
@@ -72,6 +72,7 @@
                 margin: 1rem 0;
                 font-weight: 600;
                 letter-spacing: .2rem;
+                font-size: 2.4rem;
             }
 
             .showMore {
@@ -93,7 +94,7 @@
             width: 100%;
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            column-gap: 10px;
+            column-gap: 1rem;
 
             & div {
                 overflow: hidden;
@@ -101,10 +102,10 @@
 
                 &>span {
                     position: absolute;
-                    bottom: 10px;
-                    left: 10px;
+                    bottom: 1rem;
+                    left: 1rem;
                     color: #fff;
-                    font-size: 20px;
+                    font-size: 2rem;
                     z-index: 9999;
                 }
 
@@ -115,7 +116,7 @@
                 a>img {
                     width: 100%;
                     height: 100%;
-                    object-fit: cover;
+                    object-fit: contain;
                     transition: 0.5s;
 
                     &:hover {
@@ -129,16 +130,16 @@
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(2, 1fr);
-                gap: 10px;
+                gap: 1rem;
                 line-height: 0;
 
                 &>div>span {
 
                     position: absolute;
-                    bottom: 20px;
-                    left: 10px;
+                    bottom: 2rem;
+                    left: 1rem;
                     color: #fff;
-                    font-size: 20px;
+                    font-size: 2rem;
                     z-index: 9999;
 
                 }
